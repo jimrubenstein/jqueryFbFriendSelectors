@@ -1,12 +1,7 @@
 <?
 session_start();
 
-define('FB_API_KEY', 'b4123a590dcef7749c326a811fd0c310');
-define('FB_APP_SECRET', 'e1555729e7bec7ef5ecca69539b599bd');
-define('FB_APP_ID', '265223232652');
-
-define('SERVER_BASE_PATH', 'http://fbselect.dev.jimsc.com/');
-define('FACEBOOK_BASE_PATH', 'http://apps.facebook.com/jq_friend_select/');
+require_once './config.php';
 
 require_once './facebook.php';
 

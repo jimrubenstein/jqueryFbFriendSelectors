@@ -1,0 +1,2 @@
+#Ignore config file, it holds "private" information
+config.php
